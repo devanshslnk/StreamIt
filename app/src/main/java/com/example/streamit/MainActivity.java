@@ -12,6 +12,7 @@ import android.net.wifi.p2p.WifiP2pManager.Channel;
 import android.net.wifi.p2p.WifiP2pManager.ChannelListener;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -28,7 +29,7 @@ import com.example.streamit.DeviceListFragment.DeviceActionListener;
  * The application should also register a BroadcastReceiver for notification of
  * WiFi state related events.
  */
-public class MainActivity extends Activity implements ChannelListener, DeviceActionListener {
+public class MainActivity extends AppCompatActivity implements ChannelListener, DeviceActionListener {
 
     public static final String TAG = "StreamIt";
     private WifiP2pManager manager;
