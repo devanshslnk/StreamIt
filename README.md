@@ -1,5 +1,6 @@
 # StreamIt
 <h3>An android application to stream video from one android phone to another.</h3>
+<hr/>
 <h3>Demo</h3>
 <div align="center">
 <h6 align="center"> Video Streaming from one phone to another </h6>
